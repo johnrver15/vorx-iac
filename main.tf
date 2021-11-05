@@ -15,6 +15,8 @@ module "vpc" {
 
   tags = {
  
-    Environment = "dev"
+    Environment = "QAA"
+    Compliance = "true" 
+    
   }
 }
